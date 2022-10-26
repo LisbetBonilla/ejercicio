@@ -1,8 +1,8 @@
 package com.tiernoparla.ejercicioelementales;
 
-
 public class NumerosPares {
-public static boolean par (int n){
+
+    public static boolean par(int n) {
         String str = Integer.toString(n); // convierte el int a string
         int dur = str.length(); // se crea una int con la duracion de la string
         int[] nums = new int[str.length()]; // se crea un array con la duración de la string
@@ -16,6 +16,7 @@ public static boolean par (int n){
         } // for
         return true;
     } // clase para saber si todos las cifras de un número son pares
+
     public static void main(String[] args) {
 
         if (par(222243)) {
@@ -27,4 +28,3 @@ public static boolean par (int n){
 
     }
 }
-

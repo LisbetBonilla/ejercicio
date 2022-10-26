@@ -1,12 +1,12 @@
 package com.tiernoparla.ejercicioelementales;
 
- import java.lang.Math;
- import java.util.Scanner;
- 
+import java.lang.Math;
+import java.util.Scanner;
+
 public class ejerciciosElementales {
+
     public static void main(String[] arg) {
-        
-       
+
         /*
         int N = 31752;
         int tam = 5;        
@@ -25,14 +25,6 @@ public class ejerciciosElementales {
          }
             System.out.println((int)x );
    
-         
-         
-        
-        
-        
-        
-
-
 
         /*
      //capicua
@@ -167,12 +159,7 @@ public class ejerciciosElementales {
          } //WHILE   
             
          System.out.println(N ==D*Q+R);
-         */        
+         */
     }//MAIN   
-    }//PUBLIC
-        
-        
-      
-        
-  
-       
+}//PUBLIC
+

@@ -1,12 +1,9 @@
 package com.tiernoparla.ejercicioelementales;
- import java.lang.Math;
- import java.util.Arrays;
- import java.util.Scanner;
- import java.util.regex.*;
- import java.util.Random;
+
+import java.util.Random;
 
 public class Matrizes {
-    
+
     public static void main(String[] arg) {
 
         //metodo que le das un N, y dibuja por pantalla una matriz NxN
@@ -48,24 +45,23 @@ public class Matrizes {
         for(int[] arr: matrix){
             System.out.println(Arrays.toString(arr));
         }//for
-        */
-        /*
+         */
+ /*
         for(int i = 0; i < 10; i++){
             Random rnd2 = new Random();
             System.out.println(rnd2.nextDouble());
          }//for
-        */
-        
+         */
         final int N = 5;
-        
-           int[][] matrix = new int [N][N];
-        
+
+        int[][] matrix = new int[N][N];
+
         Random rnd = new Random();
-        
-            for(int i =0; i < matrix.length; i++){
-                for (int j =0; j < matrix[i].length; j++){
-                 System.out.println((int)(Math.random()*2));
-                }//for j
-            }//for i
+
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                System.out.println((int) (Math.random() * 2));
+            }//for j
+        }//for i
     }//main
 }//public class

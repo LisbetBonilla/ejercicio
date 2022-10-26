@@ -1,8 +1,8 @@
 package com.tiernoparla.ejercicioelementales;
 
-
 public class Consecutivos {
-      public static boolean consecutivos(int[] numeros) {
+
+    public static boolean consecutivos(int[] numeros) {
 
         for (int i = 0; i < numeros.length - 1; i++) {
             if (numeros[i] + 1 != numeros[i + 1]) {
@@ -15,7 +15,7 @@ public class Consecutivos {
 
     public static void main(String[] args) {
 
-        int[] n = { 1, 2, 3, 4, 5, 6, 7, 8, 9 }; // números
+        int[] n = {1, 2, 3, 4, 5, 6, 7, 8, 9}; // números
 
         if (consecutivos(n)) {
             System.out.println("Los números son consecutivos.");

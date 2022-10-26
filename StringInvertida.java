@@ -1,7 +1,8 @@
 package com.tiernoparla.ejercicioelementales;
 
 public class StringInvertida {
-   public static void main(String[] args) {
+
+    public static void main(String[] args) {
 
         String palabras = "hola que paso";
         String invertido = "";
@@ -13,4 +14,3 @@ public class StringInvertida {
         System.out.println(invertido);
     } // main
 }
-        
