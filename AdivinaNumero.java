@@ -13,9 +13,9 @@ public class AdivinaNumero {
         while (bandera == false) {
             if (entrada < numero) {
                 System.out.println("Ingresa un numero mayor");
-                entrada = sc.nextInt();
-            }
-        }
+                numero = entrada.nextInt();
+            }//if
+        }//while
 
     } //main
-}
+}//public class

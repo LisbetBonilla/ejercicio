@@ -8,13 +8,13 @@ public class quince_nums_escribir_la_suma {
 
         Scanner num = new Scanner(System.in);
         int suma = 0;
-        int N;
+        int numero;
 
         for (int i = 1; i <= 15; i++) {
             System.out.println("Introduce los numeros aqui: ");
-            N = num.nextInt();
+            numero = num.nextInt();
 
-            suma = suma + N;
+            suma = suma + numero;
         }
         System.out.println("La suma total es:" + suma);
     }
